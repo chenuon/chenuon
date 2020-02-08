@@ -31,15 +31,11 @@
 > 早安：QQ（576323366）    //大神只接收群咨询，不加好友- -!
 
 ## 关于程忧点滴
-**程忧点滴** 是一个个人网站。到目前为止已经写了
+本站是一个个人网站。
 
-<code class="article_number"></code>篇文章， 
+到目前为止已经写了<code class="article_number"></code>篇文章，共<code class="site_word_count"></code>字。
 
-共<code class="site_word_count"></code>字。
-
-本站访问人数：<code class="site_uv"></code>人次 ， 
-
-访问量：<code class="site_pv"></code>次
+本站访问人数：<code class="site_uv"></code>人次，访问量：<code class="site_pv"></code>次
 
 ## 博客平台
 这个博客通过 [Hexo](https://hexo.io/) 生成，部署在 [雅图云](https://www.yatuyun.com/)，主题 [3-hexo](https://github.com/yelog/hexo-theme-3-hexo) 原作者已在github上开源，所以我做了部分更改

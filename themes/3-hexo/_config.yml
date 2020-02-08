@@ -64,6 +64,10 @@ menu:
       on: false
       url: /photo
       type: 1  # 跳转类型 1：站内异步跳转
+    留言板:
+      on: false
+      url: /guestbook
+      type: 1  # 跳转类型 1：站内异步跳转 
     叶落阁:
       on: false
       url: http://yelog.org/
@@ -76,7 +80,7 @@ menu:
 # 文末声明
 article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 69395866@qq.com
 
-bottom_text: ©2019-2020 程忧
+bottom_text: ©2019-2020 程忧点滴
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
@@ -96,7 +100,7 @@ searchAll: false
 copyright: true
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -280,7 +284,8 @@ CDN:
   highlight: //cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js
   pjax: //cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.min.js
   animate: //cdn.staticfile.org/animate.css/3.7.2/animate.min.css
-  font_awsome: //cdn.staticfile.org/font-awesome/5.12.0/css/fontawesome.min.css
+  font_awsome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+  # font_awsome: //cdn.staticfile.org/font-awesome/5.12.0/css/fontawesome.min.css
   nprogres_js: //cdn.staticfile.org/nprogress/0.2.0/nprogress.min.js
   mathjax: //cdn.staticfile.org/mathjax/2.7.7/config/TeX-MML-AM_CHTML.js
   photoswipe_js: //cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js

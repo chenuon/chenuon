@@ -101,6 +101,7 @@ deploy:
   type: git
   repo: 
     myself: git@www.chenuon.cn:/home/git/repos/blog.git
+    myself1: git@test.chenuon.cn:/home/git/repos/blog.git
     coding: git@e.coding.net:chenuon/chenuon.coding.me.git
     gitee: git@gitee.com:chenuon/coder.git
     github: git@github.com:chenuon/chenuon.github.io.git
