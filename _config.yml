@@ -101,7 +101,7 @@ deploy:
   type: git
   repo: 
     myself: git@103.45.112.32:/home/git/repos/blog.git
-    test: git@test.chenuon.cn:/home/git/repos/blog.git
+    # test: git@test.chenuon.cn:/home/git/repos/blog.git
     # coding: git@e.coding.net:chenuon/chenuon.coding.me.git
     # gitee: git@gitee.com:chenuon/coder.git 
     github: git@github.com:chenuon/chenuon.github.io.git
