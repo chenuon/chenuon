@@ -1,8 +1,9 @@
 ---
-title: xls系统开发之审核反审双向控制
+title: xls系统开发(4)：审核反审双向控制
 date: 2020-02-14 14:24:17
-top:
-categories: xls开发
+top: 
+categories: 
+- xls开发
 tags: 
 - erp系统
 - xlserp系统
@@ -66,4 +67,4 @@ xls系统开发过程中经常遇到如下问题：(此处以表单A、表单B�
 
 ![报警流程并终止](/img/baojing.jpg)
 
-echo . over
+至此完成。
