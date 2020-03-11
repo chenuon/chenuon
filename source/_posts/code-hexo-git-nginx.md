@@ -106,8 +106,7 @@ git --version
 adduser git //添加git用户
 passwd git // 设置git密码  
 su git // 切换用户  
-cd /home/git/   //进入git目录
-mkdir .ssh  //创建免密公匙目录  
+cd /home/git/   //进入git目录  
 mkdir -p projects/blog // 创建文件来放置hexo静态工程  
 mkdir repos && cd repos //创建文件放置git仓库  
 git init --bare blog.git // 创建一个裸露的仓库  
@@ -142,6 +141,9 @@ git clone git@server_ip:/home/git/repos/blog.git
 创建authorized_keys文件  
 
 ```
+su git     //切换git用户
+cd /home/git   //进入git目录
+mkdir .ssh  //创建免密公匙目录
 cd /home/git/.ssh  //注意是用git用户进这个目录，不是root
 touch authorized_keys  //存放客户端的ssh公钥(id_rsa.pub)  
 chmod 600 authorized_keys   //配置权限  

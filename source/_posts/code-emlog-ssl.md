@@ -83,4 +83,4 @@ Header("HTTP/1.1 301 Moved Permanently");
 header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 ```
 位置如图：  
-![具体位置](/img/site-img.jpg)
+![具体位置](http://img.chenuon.cn/site-img.jpg)
